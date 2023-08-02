@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Full-Screen Divs</title>
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins:wght@600&display=swap');
-  
-      *{
-        font-family: 'Mukta', sans-serif;
-        font-family: 'Poppins', sans-serif;   
+      @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins:wght@600&display=swap");
+
+      * {
+        font-family: "Mukta", sans-serif;
+        font-family: "Poppins", sans-serif;
       }
 
       body,
@@ -19,33 +19,37 @@
         height: 100%;
       }
 
-      .container {
+      /* .container {
         display: flex;
         height: 100%;
         background-image: url("https://www.sathyabama.ac.in/sites/default/files/inline-images/DJI_0105-New-Low.jpg");
         background-size: cover;
         background-position: center;
-      }
- 
-      .container::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
+      } */
+
+      .container {
+        display: flex;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.3); 
-    }
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url("https://www.sathyabama.ac.in/sites/default/files/inline-images/DJI_0105-New-Low.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-blend-mode: multiply;
+      }
 
       .left-div {
         flex: 0.3;
-        
+
         padding: 20px;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
         position: relative;
         transition: background-color 0.3s ease;
       }
@@ -98,7 +102,7 @@
 
       .right-div {
         flex: 1;
-        
+
         padding: 5px;
         box-sizing: border-box;
       }
@@ -128,6 +132,7 @@
 
         .left-div h2 {
           font-size: 26px;
+          text-align: center;
         }
 
         .left-div form {
