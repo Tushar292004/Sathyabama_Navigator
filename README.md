@@ -11,7 +11,7 @@ If you face any issues  with the locations of the block showed by the navigatior
 website link : 
 https://tushar292004.github.io/Sathyabama_Navigator/
 
-If you like my project please give a star to the repo and want to work and make it more better do email me sure we can worl more on it . 
+If you like my project please give a star to the repo and want to work and make it more better do email me sure we can work more on it . 
 
 Thank You For Visiting ⭐
 
