@@ -1,4 +1,4 @@
-# Sathyabama_Navigator
+SIST NAVIGATOR : 
 It is a static website which will help you to locate the blocks and places in Sathyabhama University Campus.
 Please don't copy the code " All rights are reserved by @Tushar292004 ".
 No google map api is used for this project 
