@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins:wght@600&display=swap");
+
+* {
+  font-family: "Mukta", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://www.sathyabama.ac.in/sites/default/files/inline-images/DJI_0105-New-Low.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+.logo {
+  text-shadow: 2px 2px 4px #000000ae;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo_title1 {
+  color: #fff;
+  font-size: 2.6rem;
+  transition: color 0.3s ease;
+}
+
+.logo_title1:hover {
+  color: #a8a8a8f5;
+}
+
+.logo_title2 {
+  color: #e0504b;
+  font-size: 2.6rem;
+  transition: color 0.3s ease;
+}
+
+.logo_title2:hover {
+  color: #e0504bcf;
+}
+
+.container {
+  margin: 0 5px 0 7.5px;
+  padding: 0 5px;
+  width: 98%;
+  height: 83%;
+}
+
+.nav {
+  height: 19%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  /* background-color: red; */
+  width: 50%;
+  height: 4rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+#searchbox {
+  margin-right: 10px;
+  background: transparent;
+  width: fit-content;
+  height: 3rem;
+  font-size: 1.5rem;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid #e0504b;
+  transition: background-color 0.3s ease;
+}
+#searchbox:hover {
+  background: #0000002a;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: white;
+  opacity: 70%;
+}
+
+/* auro complete style */
+.ui-autocomplete {
+  width: 50%;
+  list-style: none;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+  background-color: #070606a7;
+  color: #fff;
+  border: 1px solid #e0504bbe;
+  border-radius: 5px;
+}
+
+#ui-id-1 {
+  padding-left: 0;
+  width: 55px;
+}
+
+.ui-autocomplete .ui-menu-item {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.ui-autocomplete .ui-menu-item:hover {
+  background-color: #e0504bbe;
+}
+
+.autocomplete-suggestions {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+  margin-top: 4px;
+  width: 98%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.autocomplete-suggestion {
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.autocomplete-suggestion:hover {
+  background-color: #f1f1f1;
+}
+
+/* Scroll bar Styling */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e0504bbe; 
+}
+
+.submit-button {
+  box-shadow: 2px 2px 4px #000000ae;
+  margin-left: 5px;
+  padding: 10 px;
+  width: 25%;
+  height: 80%;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #e0504bec;
+  color: #fff;
+  transition: padding-left 0.3s ease, background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  padding-left: 25px;
+  background-color: #e0504bc9 ;
+}
+
+.map {
+  border: 2px solid #e0504b;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* Need to hide the search result  */
+.ui-helper-hidden-accessible {
+  display: none;
+}
+
+@media (max-width: 768px) {
+ 
+  /* Adjust logo and title sizes */
+  .logo_title1,
+  .logo_title2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  /* Adjust container */
+  .container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  /* Adjust nav */
+  .nav {
+    height: 18%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1px 10px
+  }
+
+  /* Adjust options */
+  .options {
+    margin-top: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Adjust searchbox */
+  #searchbox {
+    text-align: center;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  /* Adjust submit-button */
+  .submit-button {
+    padding: 5px; /* Smaller padding */
+    font-size: 1.5rem; /* Smaller font size */
+    background-color: #e0504bd7; /* Revert to original background color */
+    color: #fff; /* Revert to original text color */
+    transition: none; /* Disable hover effect */
+  }
+
+  .submit-button:hover {
+    padding-left: 0px;
+  }
+
+
+  /* Adjust map */
+  .map {
+    margin:4px 2px 4px 2px ;
+    width: 100%;
+    height: 80%;
+  }
+
+  /* Further improvements */
+  .logo {
+    text-shadow: 2px 2px 4px #000000ae;
+    margin-bottom: 5px;
+  }
+
+  .options {
+    margin-top: 0px;
+  }
+
+  #searchbox {
+    margin: 5px 0;
+  }
+}
