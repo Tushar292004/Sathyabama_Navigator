@@ -11,51 +11,55 @@ $(document).ready(function() {
     "BLOCK 8",
     "BLOCK 9",
     "BLOCK 10",
-    "DATA SCIENCE LAB",
+    "BLOCK 14",
+    "BLOCK 15",
+    "BLOCK 16",
+    "BLOCK 18",
+    "Data Science Lab",
     "Science & Humanity Department",
-    "PHYSICS LABORATORY",
-    "Chemisty lab",
-    "Girls Mess MAIN",
-    "BOOK STORE",
-    "Security",
-    "IT STAFF ROOM",
+    "Physics Laboratory",
+    "Chemistry Laboratory",
+    "Girl's Mess Main",
+    "Book Store",
+    "Security Gate",
+    "IT Staff Room",
     "CISCO LAB",
-    "EEE DEPT",
-    "ECE DEPT",
-    "DEPT OF AUTOMOBILE ENG",
-    "DEPT OF BIOMEDICAL ENG",
-    "ROBOTICS LAB",
-    "DEPT OF VISCOM",
-    "DEPT OF MECHANICAL AND PRODUCTION",
-    "DEPT OF CIVIL ENGINEERING",
-    "DEPT OF BIOTECH",
-    "IT TOWER LAB",
-    "DEPT OF CHEM ENG",
-    "OPEN AUDITORIUM",
-    "REMIBAI JEPPIAR AUDITORIUM",
-    "DEPT OF AERONAUTICS",
-    "PLACEMENT OFFICE",
-    "CENTRAL LIBRARY",
-    "CHURCH IN COLLEGE",
-    "DEPT OF MECHATRONIX",
-    "INTERNATIONAL RESEARCH CENTER",
-    "ADMINISTRATION BLOCK",
-    "ACADEMY OF SCIENCES",
-    "JEPPIAR MEMORIAL",
-    "BOYS MESS MAIN",
-    "BOYS VEG MAIN",
-    "CANTEEN",
-    "DEPT OF IT",
-    "DEPT OF MBA",
-    "FUEL STN SIST",
-    "CRICKET GROUND",
+    "EEE Department",
+    "ECE Department",
+    "Department Of Automobile Engineering",
+    "Department Of Biomedical Engineering",
+    "Robotics Lab",
+    "Department Of VISCOM",
+    "Department Of Mechanical And Production",
+    "Department Of Civil Engineering",
+    "Department Of Bio-Tech",
+    "IT Tower Lab",
+    "Department Of Chemical Engineering",
+    "Open Auditorium",
+    "Remibai Jeppiar Auditorium",
+    "Department Of Aeronautics Engineering",
+    "Placement Office",
+    "Central Library",
+    "Church In College",
+    "Department Of Mechatronix",
+    "International Research Center",
+    "Administration Block",
+    "Academy Of Sciences",
+    "Jeppiar Memorial",
+    "Boys Mess Main",
+    "Boys Veg Main",
+    "Canteen",
+    "Department Of IT",
+    "Department Of MBA",
+    "Fuel Station SIST",
+    "Cricket Ground",
     "IOB ATM",
-    "GOPALAKRISHNA ILLAM",
-    "MGR ILLAM",
+    "GOPALAKRISHNA ILLAM BOYS HOSTEL",
+    "MGR ILLAM BOYS HOSTEL",
     "OPEN GROUND",
     "BASKETBALL COURT",
-    "DEPT OF ARCHITECRURE",
-    "INDOOR BADMINTON STADIUM",
+    "Department Of Architechture",
+    "IN-DOOR BADMINTON STADIUM",
     "30 YEARS OF EXCELLENCE CIRCLE",
     "CENTRE FOR DRUG AND RECOVERY",
     "BUSINESS INCUBATOR SIST",
@@ -112,7 +116,23 @@ $(document).ready(function() {
       latitude: 12.873703581940518,
       longitude: 80.22035708852822,
     },
-    "DATA SCIENCE LAB": {
+    "BLOCK 14": {
+      latitude: 12.874229841355671,
+      longitude: 80.22157972047223, 
+    },
+    "BLOCK 15": {
+      latitude: 12.874710255574552, 
+      longitude: 80.22133546722836,     
+    },
+    "BLOCK 16": {
+      latitude: 12.874459427561927, 
+      longitude: 80.22127023655226,   
+    },
+    "BLOCK 18": {
+      latitude: 12.874791085220062, 
+      longitude:  80.22179936665552,     
+    },
+    "Data Science Lab": {
       latitude: 12.875009754138773,
       longitude: 80.2214006211087,
     },
@@ -120,27 +140,27 @@ $(document).ready(function() {
       latitude: 12.875148399391858,
       longitude: 80.22158421541582,
     },
-    "PHYSICS LABORATORY": {
+    "Physics Laboratory": {
       latitude: 12.875410564735047,
       longitude: 80.2215299128744,
     },
-    "Chemisty lab": {
+    "Chemistry Laboratory": {
       latitude: 12.875090420480841,
       longitude: 80.22203156492374,
     },
-    "Girls Mess MAIN": {
+    "Girl's Mess Main": {
       latitude: 12.875143357747959,
       longitude: 80.2216643763103,
     },
-    "BOOK STORE": {
+    "Book Store": {
       latitude: 12.874674484410523,
       longitude: 80.22038438785822,
     },
-    Security: {
+    "Security Gate": {
       latitude: 12.873500940826661,
       longitude: 80.22229658080218,
     },
-    "IT STAFF ROOM": {
+    "IT Staff Room": {
       latitude: 12.874125241691395,
       longitude: 80.22114738285138,
     },
@@ -148,119 +168,119 @@ $(document).ready(function() {
       latitude: 12.87403381775634,
       longitude: 80.22116822316441,
     },
-    "EEE DEPT": {
+    "EEE Department": {
       latitude: 12.873879993282426,
       longitude: 80.22093897972115,
     },
-    "ECE DEPT": {
+    "ECE Department": {
       latitude: 12.873671024034586,
       longitude: 80.2208526412815,
     },
-    "DEPT OF AUTOMOBILE ENG": {
+    "Department Of Automobile Engineering": {
       latitude: 12.874953134313571,
       longitude: 80.22014719706938,
     },
-    "DEPT OF BIOMEDICAL ENG": {
+    "Department Of Biomedical Engineering": {
       latitude: 12.874727525962136,
       longitude: 80.22014193737324,
     },
-    "ROBOTICS LAB": {
+    "Robotics Lab": {
       latitude: 12.87508388451522,
       longitude: 80.22002096436205,
     },
-    "DEPT OF VISCOM": {
+    "Department Of VISCOM": {
       latitude: 12.875258218016505,
       longitude: 80.21968434382639,
     },
-    "DEPT OF MECHANICAL AND PRODUCTION": {
+    "Department Of Mechanical And Production": {
       latitude: 12.873981998776284,
       longitude: 80.22037022962911,
     },
-    "DEPT OF CIVIL ENGINEERING": {
+    "Department Of Civil Engineering": {
       latitude: 12.874411540358581,
       longitude: 80.22041935777101,
     },
-    "DEPT OF BIOTECH": {
+    "Department Of Bio-Tech": {
       latitude: 12.87449086329448,
       longitude: 80.220136870969,
     },
-    "IT TOWER LAB": {
+    "IT Tower Lab": {
       latitude: 12.87384537219599,
       longitude: 80.21987718988773,
     },
-    "DEPT OF CHEM ENG": {
+    "Department Of Chemical Engineering": {
       latitude: 12.874125669004451,
       longitude: 80.2192078706193,
     },
-    "OPEN AUDITORIUM": {
+    "Open Auditorium": {
       latitude: 12.874481783349612,
       longitude: 80.21896512453965,
     },
-    "REMIBAI JEPPIAR AUDITORIUM": {
+    "Remibai Jeppiar Auditorium": {
       latitude: 12.874396775455113,
       longitude: 80.2187270919761,
     },
-    "DEPT OF AERONAUTICS": {
+    "Department Of Aeronautics Engineering": {
       latitude: 12.874523138532721,
       longitude: 80.21833351340116,
     },
-    "PLACEMENT OFFICE": {
+    "Placement Office": {
       latitude: 12.87380046812792,
       longitude: 80.21913594183148,
     },
-    "CENTRAL LIBRARY": {
+    "Central Library": {
       latitude: 12.873497881766749,
       longitude: 80.2188548936529,
     },
-    "CHURCH IN COLLEGE": {
+    "Church In College": {
       latitude: 12.87404835603964,
       longitude: 80.21871523169885,
     },
-    "DEPT OF MECHATRONIX": {
+    "Department Of Mechatronix": {
       latitude: 12.873221428479887,
       longitude: 80.2191701587265,
     },
-    "INTERNATIONAL RESEARCH CENTER": {
+    "International Research Center": {
       latitude: 12.87264559102071,
       longitude: 80.22116779837471,
     },
-    "ADMINISTRATION BLOCK": {
+    "Administration Block": {
       latitude: 12.873108695017175,
       longitude: 80.22188874656037,
     },
-    "ACADEMY OF SCIENCES": {
+    "Academy Of Sciences": {
       latitude: 12.872956143206048,
       longitude: 80.22095542599541,
     },
-    "JEPPIAR MEMORIAL": {
+    "Jeppiar Memorial": {
       latitude: 12.873299518642561,
       longitude: 80.22131347346577,
     },
-    "BOYS MESS MAIN": {
+    "Boys Mess Main": {
       latitude: 12.872771503052524,
       longitude: 80.21850285896448,
     },
-    "BOYS VEG MAIN": {
+    "Boys Veg Main": {
       latitude: 12.871918826865585,
       longitude: 80.21791731431503,
     },
-    CANTEEN: {
+    Canteen: {
       latitude: 12.872439708893376,
       longitude: 80.21943241120937,
     },
-    "DEPT OF IT": {
+    "Department Of IT": {
       latitude: 12.872924913101599,
       longitude: 80.21769041575376,
     },
-    "DEPT OF MBA": {
+    "Department Of MBA": {
       latitude: 12.871947368368016,
       longitude: 80.21820276734803,
     },
-    "FUEL STN SIST": {
+    "Fuel Station SIST": {
       latitude: 12.873745476901798,
       longitude: 80.21610212582105,
     },
-    "CRICKET GROUND": {
+    "Cricket Ground": {
       latitude: 12.872792909115322,
       longitude: 80.21660349846483,
     },
@@ -268,11 +288,11 @@ $(document).ready(function() {
       latitude: 12.87369552962545,
       longitude: 80.22034000543971,
     },
-    "GOPALAKRISHNA ILLAM": {
+    "GOPALAKRISHNA ILLAM BOYS HOSTEL": {
       latitude: 12.871822499239077,
       longitude: 80.21963003250231,
     },
-    "MGR ILLAM": {
+    "MGR ILLAM BOYS HOSTEL": {
       latitude: 12.871326589811083,
       longitude: 80.21958245699598,
     },
@@ -284,11 +304,11 @@ $(document).ready(function() {
       latitude: 12.87141221451788,
       longitude: 80.22013506479327,
     },
-    "DEPT OF ARCHITECRURE": {
+    "Department Of Architechture": {
       latitude: 12.870680835763773,
       longitude: 80.22016434202794,
     },
-    "INDOOR BADMINTON STADIUM": {
+    "IN-DOOR BADMINTON STADIUM": {
       latitude: 12.871201720367486,
       longitude: 80.2206474163754,
     },
