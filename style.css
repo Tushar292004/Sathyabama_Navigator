@@ -1,3 +1,4 @@
+/* all right reserved by @Tushar292004 */
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins:wght@600&display=swap");
 
 * {
@@ -17,6 +18,7 @@ html {
   background-blend-mode: multiply;
 }
 .logo {
+  text-decoration: none;
   text-shadow: 2px 2px 4px #000000ae;
   display: flex;
   flex-direction: row;

@@ -1,4 +1,4 @@
-// JavaScript for Autocomplete Suggestions
+// all right reserved by @Tushar292004 
 $(document).ready(function() {
   var blockOptions = [
     "BLOCK 1",
