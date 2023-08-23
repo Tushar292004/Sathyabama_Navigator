@@ -15,5 +15,4 @@ https://tushar292004.github.io/Sathyabama_Navigator/
 If you like my project please give a star to the repo and want to work and make it more better do email me sure we can work more on it . 
 
 Thank You For Visiting ⭐
-
-<img align="right" alt="Coding" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif">
+<img align="right" alt="Coding" height="300" width="700" src="https://user-images.githubusercontent.com/74038190/240815616-7b282ec6-fcc3-4600-90a7-2c3140549f58.gif">
