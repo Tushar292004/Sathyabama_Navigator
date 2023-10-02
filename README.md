@@ -15,6 +15,9 @@ https://tushar292004.github.io/Sathyabama_Navigator/
 vercel link : 
 https://sathyabama-navigator.vercel.app/
 
+presentaion link :
+https://www.canva.com/design/DAFsMfWjmcE/pIomh8_-nLY4mnVXO6qKjA/view?utm_content=DAFsMfWjmcE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
 If you like my project please give a star to the repo and want to work and make it more better do email me sure we can work more on it . 
 
 Thank You For Visiting ⭐
