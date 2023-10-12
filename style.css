@@ -51,6 +51,22 @@ html {
   height: 83%;
 }
 
+.contact {
+  margin-right: 40px;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #000000ae;
+}
+.contact-text {
+  margin-top: 55px;
+  color: #fff;
+  font-size: 3.6rem;
+  transition: color 0.3s ease;
+}
+
+.contact :hover{
+  color: #a8a8a8f5;
+}
+
 .nav {
   height: 19%;
   display: flex;
@@ -223,6 +239,14 @@ input:focus {
     padding: 1px 10px
   }
 
+  .contact { 
+    margin-right: 20px;
+  }
+
+  .contact-text {
+    font-size: 2.8rem;
+    margin-top: 45px;
+  }
   /* Adjust options */
   .options {
     margin-top: 0;
@@ -234,7 +258,7 @@ input:focus {
   #searchbox {
     text-align: center;
     width: 100%;
-    margin-right: 0;
+    margin-right: 10px;
   }
 
   /* Adjust submit-button */
@@ -266,9 +290,5 @@ input:focus {
 
   .options {
     margin-top: 0px;
-  }
-
-  #searchbox {
-    margin: 5px 0;
   }
 }
